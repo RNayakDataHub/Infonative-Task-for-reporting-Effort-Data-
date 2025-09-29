@@ -1,0 +1,32 @@
+Hi I have pasted the VBA script below for reference in case file doesn't work.
+
+Sub roy_FB_photo_upload()
+Dim L As Long, N As Long
+Dim W As Long, H As Long
+Dim i As Long
+Dim output As String
+
+L = InputBox("Enter minimum dimension of L: ")
+N = InputBox("Enter the number of photos being uploaded: ")
+
+For i = 1 To N
+    W = InputBox("Enter width of photo" & i & ": ")
+    H = InputBox("Enter height of photo" & i & ": ")
+    
+    If W < L Or H < L Then
+        output = "Upload Another"
+    ElseIf W = H Then
+        output = "Accepted"
+    Else
+        output = "Crop It"
+    End If
+    
+    Debug.Print output
+    Cells(i, 1).Value = output
+Next i
+
+End Sub
+
+    
+
+
