@@ -1,5 +1,5 @@
 # Infonative-Task-for-reporting-Effort-Data-
-Hi, This is a reporting based project/assignment given to me by Infonative Solutions for a Data Analyst role for Delloitte and Assignment was purely based to assess the Excel skills. Kindly find the details in repository items. If you want to try out it yourself, kindly find the question template and Raw Data attached and you can do it hands on. All the best :) 
+Hi, This is a reporting based project/assignment given to me by Infonative Solutions for a Data Analyst role for Delloitte and Assignment was purely based to assess the Excel skills. There is a problem solving task with VBA as well. That one is not that advanced but if you want to check you can find the files attached. Kindly find the details in repository items. If you want to try out it yourself, kindly find the question template and Raw Data attached and you can do it hands on. All the best :) 
 1. Project Overview
 This project provides a robust solution for automating the analysis and reporting of a Quality Assurance (QA) team's effort data. It transforms three separate raw data files (weekly efforts, resource details, and a fiscal calendar) into a single, interactive dashboard within Microsoft Excel.
 
